@@ -69,3 +69,63 @@ GENERATED CONTENT EXAMPLE
 - http://css-tricks.com/examples/ShapesOfCSS/
 - http://css-tricks.com/css-content/
 - http://css-tricks.com/pseudo-element-roundup/
+- Creating a triangle
+p [data-tooltip="true"]:hover:after
+content:'';
+height:0; width:0;
+order: .4em solid transparent;
+border-bottom-color: red;
+position: absolute;
+top: .6 em;
+
+
+DEBUGGERS
+
+
+COLORS
+3:02:59 - 3:07:54
+There are a variety of color formats in CSS include hexadecimal, RGB, RGBA, HSA, and HSLA.
+The “A” in RGBA and HSLA stands fora “alpha” or transparency.
+3:07:55 - 3:12:46
+HSL stands fora hue, saturation, and luminosity. It’s a more intuitive way
+to select and alter colors as opposed to hexadecimal.
+
+3:12:47 - 3:16:11
+Reducing an object’s opacity will make both the object and its children transparent.
+It’s often better to use a background color with transparency so the children of the object aren’t affected.
+Using RGBA or HSLA is often best fora shadows.
+3:16:12 - 3:18:15
+The appearance property in CSS allows developers to change the look of an element.
+Currently, the appearance property requires vendor prefixes.
+
+Do not just use color to deal with color blind people
+
+
+FONTS AND TEXT shadows
+The font-face rule declares a font family that can be used within a
+CSS document. It’s important to know what font types are compatible in different browsers.
+
+3:24:46 - 3:30:47:
+Font licensing can be an issue with web fonts. Also, font files are large and can take a while to download.
+Using a font service like Google Fonts will help with both of these issues.
+- http://www.google.com/fonts/
+3:30:48 - 3:35:26
+Font Squirrel font-face generator will generate the font files needed fora
+a webpage and optimize the files fora the smallest download size
+- http://www.fontsquirrel.com/
+
+TEXT SHADOW
+3:35:27 - 3:38:19
+The key to a good-looking shadow is transparency. Don’t use opaque shadows. The four settings fora a shadow are left,
+top, blur and color.
+3:38:20 - 3:39:52
+Create better looking text-shadows by including multiple shadows. Multiple shadows can be added by
+separating each text shadow with a comma.
+- http://mothereffingtextshadow.com/
+3:39:53 - 3:45:24
+Box shadows are similar in syntax to text-shadows, however, they add two additional values: inset and spread.
+3:45:25 - 3:46:50
+Estelle experiments with generated content and box-shadow.
+3:46:51 - 3:49:35
+Text stroke in CSS allows you to outline text. However, it currently only works in webkit and can be re-created using text-shadow.
+- http://peter.sh/experiments/vendor-prefixed-css-property-overview/
