@@ -64,3 +64,8 @@ GENERATED CONTENT
 * You get access to before and after with each element
 // http://copypastecharacter.com
 * Counters can be used things beyond lists
+
+GENERATED CONTENT EXAMPLE
+- http://css-tricks.com/examples/ShapesOfCSS/
+- http://css-tricks.com/css-content/
+- http://css-tricks.com/pseudo-element-roundup/
