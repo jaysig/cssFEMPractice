@@ -129,3 +129,13 @@ Estelle experiments with generated content and box-shadow.
 3:46:51 - 3:49:35
 Text stroke in CSS allows you to outline text. However, it currently only works in webkit and can be re-created using text-shadow.
 - http://peter.sh/experiments/vendor-prefixed-css-property-overview/
+
+
+BACKGROUND SIZE
+The background-clip property in CSS indicates which part of the background is showing.
+Background origin indicates where you the background image begins. When considering hiDPI images,
+the background-size property determines how backgrounds will grow or shrink.
+
+BORDER IMAGE
+Border images are use a 9-slice scaling technique where the images is “sliced”
+into nine regions and the corners maintain their aspect ratio while the other regions shrink/grow.
