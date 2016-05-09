@@ -139,3 +139,10 @@ the background-size property determines how backgrounds will grow or shrink.
 BORDER IMAGE
 Border images are use a 9-slice scaling technique where the images is “sliced”
 into nine regions and the corners maintain their aspect ratio while the other regions shrink/grow.
+
+GRADIENTS
+Gradients can theoretically be used anywhere an image can be used. There are four gradient types.
+Currently there are three different syntaxes to support. The first is the original Webkit syntax.
+-need webkit fora older iphones
+- use degrees fo r different gradients
+http://standardista.com/cssgradients/
